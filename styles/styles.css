@@ -1,0 +1,336 @@
+body {
+    background-color: white;
+}
+
+
+header {
+    background-color: #428bca;
+    color: black;
+        
+}
+
+.header_flex {
+    display: flex;
+    width: 100%;
+}
+
+section {
+    background-color: white;
+    color: black;
+    height: auto;
+    
+}
+
+footer {
+    background-color: #428bca;
+    color: white;
+    width: 100%;
+    height: auto;
+    border-top: 4px solid black;
+
+}
+
+.footer_flex {
+    display: flex;
+}
+
+.nav {
+    width: 100%;
+    --bs-nav-link-hover-color: antiquewhite;
+}
+
+.nav-logo {
+    display: flex;
+    left:auto;
+    
+    margin-inline: 8%;
+    justify-content: start;
+    justify-content: space-between;
+
+}
+
+.nav-item {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    color:white;
+}
+
+.nav-link:visited {
+    color: white;
+}
+
+.nav-item:visited {
+    color: white;
+}
+
+
+
+.nav-link.active {
+    background-color: aquamarine;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.nav-item.lang{
+    width:  auto;
+    float: right;
+}
+
+.btn.btn-secondary.dropdown-toggle {
+    display:flex;
+    align-items: center;
+    background-color: #428bca;
+    font-size: 20px;
+    border: none;
+    border-radius: 0%;
+    height: 100%;
+}
+
+.btn.btn-secondary.dropdown-toggle:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: #428bca;
+    height: auto;
+    align-items: center;
+    
+}
+
+.dropdown-item {
+    color: white;
+    align-items: center;
+}
+
+.dropdown-item:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.dropdown-item.active {
+    background-color: aquamarine;
+    align-items: center;
+    color: black;
+}
+
+.download-buttons {
+    display: flex;
+    align-items: center;
+    
+}
+
+.btn.btn-primary {
+    display: flex;
+    background-color: #428bca;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 0%;
+
+}
+
+.btn.btn-primary:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.btn.btn-primary.active {
+    background-color: lightgray;
+    color: black;
+}
+
+.contact_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    margin: auto 5% auto 5%;
+}
+
+.row {
+    background-color: rgb(0 255 255 / 20%);
+}
+
+.column {
+    float: center;
+    text-align: center;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px;
+    background-color: lightcyan;
+}
+ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact-left h3 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.contact-right h3 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+tr td {
+    padding-top: 20px;
+}
+
+tr td:first-child {
+    padding-right: 50px;
+}
+
+.container2 {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box {
+    display: flex;
+
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background-color: lightcyan;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: blue;
+    color: white;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: lightcyan;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: lightcyan;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    
+}
+
+.send-button {
+    background-color: blue;
+    width: 70px;
+    border: none;
+    outline:none;
+    color: white;
+    height: 35px;
+    margin-top: 10px;
+    
+}
+
+.send-button:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.send-button:active {
+    background-color: aquamarine;
+    color: black;
+}
+
+#Subtitle1{
+   font-size: xx-large;  
+}
+
+.Paragrahp1 {
+    font-size: 20px;
+    color:black;
+}
+
+.Paragrahp2 {
+    font-size: small;
+    
+}
+
+#Subtitle3 {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.separator2 {
+    padding-top: 5%;
+}
+
+.separator {
+    border-top: 4px solid black
+    
+}
+
+.img_container img {
+    width: 100px;
+}
+
+.img_container {
+    min-width: 12.5%;
+    margin-left: 12.5%;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: flex-start;
+    height: 12.5%;
+}
+
+.img_container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.img_container2 img {
+    width: 100px;
+}
