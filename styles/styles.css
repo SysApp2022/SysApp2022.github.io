@@ -219,7 +219,7 @@ tr td:first-child {
 }
 
 .contact-box {
-    display: block;
+    display: block !important;
 
 }
 
