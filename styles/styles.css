@@ -61,6 +61,11 @@ footer {
     height: 100%;
     font-size: 20px;
     color:white;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
 }
 
 .nav-link:visited {
@@ -76,11 +81,21 @@ footer {
 .nav-link.active {
     background-color: aquamarine;
     color: black;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
 }
 
 .nav-link:hover {
     background-color: antiquewhite;
     color: black;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
 }
 
 .nav-item.lang{
