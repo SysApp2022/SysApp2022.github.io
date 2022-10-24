@@ -109,11 +109,12 @@ footer {
     background-color: #428bca;
     font-size: 20px;
     border: none;
-    border-radius: 0%;
+    border-radius: 35px;
     height: 100%;
 }
 
 .btn.btn-secondary.dropdown-toggle:hover {
+    border-radius: 35px;
     background-color: antiquewhite;
     color: black;
 }
