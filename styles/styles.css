@@ -103,6 +103,20 @@ footer {
     float: right;
 }
 
+
+.navbar-expand-lg .navbar-nav .nav-link {
+ 
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+
+
 .btn.btn-secondary.dropdown-toggle {
     display:flex;
     align-items: center;
@@ -111,6 +125,8 @@ footer {
     border: none;
     border-radius: 35px;
     height: 100%;
+    margin: 5px 10px;
+    padding-left: 20px;
 }
 
 .btn.btn-secondary.dropdown-toggle:hover {
@@ -349,4 +365,21 @@ label {
 
 .img_container2 img {
     width: 100px;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+ 
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .btn.btn-secondary.dropdown-toggle {
+        
+        margin: 0px 10px 0px;
+    }
 }
